@@ -45,10 +45,6 @@ function Header() {
 
         {/* CTA Buttons */}
         <div className="flex items-center gap-3">
-          <button className="hidden sm:flex bg-[#b51a1b] hover:bg-[#9a1617] text-white px-6 py-2.5 text-sm font-bold uppercase tracking-wider items-center gap-2 border-b-2 border-[#93000b] transition-all">
-            <span className="material-symbols-outlined text-sm">favorite</span>
-            Donate Now
-          </button>
           <button className="lg:hidden text-white p-2">
             <span className="material-symbols-outlined text-3xl">menu</span>
           </button>

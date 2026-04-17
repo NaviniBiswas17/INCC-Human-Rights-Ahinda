@@ -38,10 +38,6 @@ function JoinCTA() {
             <span className="material-symbols-outlined">person_add</span>
             Get Membership
           </button>
-          <button className="bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white px-8 py-4 font-bold text-base uppercase tracking-wider hover:bg-white/20 transition-all flex items-center justify-center gap-2">
-            <span className="material-symbols-outlined">favorite</span>
-            Donate Now
-          </button>
         </div>
       </div>
     </section>
