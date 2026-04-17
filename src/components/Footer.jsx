@@ -27,9 +27,9 @@ function Footer() {
             <h5 className="font-bold text-white mb-4 text-sm uppercase tracking-wider border-b border-[#e9c349]/30 pb-2">Quick Links</h5>
             <ul className="space-y-2 text-sm">
               <li><a className="text-white/70 hover:text-[#e9c349] transition-colors" href="#about">About Us</a></li>
-              <li><a className="text-white/70 hover:text-[#e9c349] transition-colors" href="#programs">Our Programs</a></li>
+              <li><a className="text-white/70 hover:text-[#e9c349] transition-colors" href="#services">Our Services</a></li>
+              <li><a className="text-white/70 hover:text-[#e9c349] transition-colors" href="#programs">Programs</a></li>
               <li><a className="text-white/70 hover:text-[#e9c349] transition-colors" href="#impact">Impact Report</a></li>
-              <li><a className="text-white/70 hover:text-[#e9c349] transition-colors" href="#gallery">Gallery</a></li>
             </ul>
           </div>
 
@@ -39,7 +39,7 @@ function Footer() {
             <ul className="space-y-2 text-sm">
               <li><a className="text-white/70 hover:text-[#e9c349] transition-colors" href="#">Donate</a></li>
               <li><a className="text-white/70 hover:text-[#e9c349] transition-colors" href="#">Volunteer</a></li>
-              <li><a className="text-white/70 hover:text-[#e9c349] transition-colors" href="#">Partner With Us</a></li>
+              <li><a className="text-white/70 hover:text-[#e9c349] transition-colors" href="#">Partnerships</a></li>
               <li><a className="text-white/70 hover:text-[#e9c349] transition-colors" href="#contact">Contact</a></li>
             </ul>
           </div>

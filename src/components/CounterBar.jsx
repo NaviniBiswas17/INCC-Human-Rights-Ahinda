@@ -6,13 +6,13 @@ function CounterBar() {
   ]
 
   return (
-    <div className="bg-white border-y border-[#e2e2e4] relative z-20">
-      <div className="max-w-7xl mx-auto py-6 px-6">
-        <div className="grid grid-cols-3 divide-x divide-[#e2e2e4]">
+    <div className="bg-[#f5f5f7] py-8 border-y border-[#e2e2e4] relative z-20">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex flex-wrap justify-center gap-8 md:gap-24">
           {stats.map((stat, index) => (
-            <div key={index} className="text-center px-4">
-              <div className="text-2xl md:text-3xl font-headline font-black text-[#00113a]">{stat.number}</div>
-              <div className="text-xs font-bold uppercase tracking-widest text-[#b51a1b] mt-1">{stat.label}</div>
+            <div key={index} className="text-center">
+              <div className="text-3xl font-headline font-extrabold text-[#00113a] mb-1">{stat.number}</div>
+              <div className="text-xs uppercase tracking-widest text-[#735c00] font-label">{stat.label}</div>
             </div>
           ))}
         </div>

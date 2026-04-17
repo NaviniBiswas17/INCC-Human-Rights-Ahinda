@@ -1,24 +1,8 @@
 const stats = [
-  {
-    number: "5000+",
-    label: "Lives Impacted",
-    description: "People supported through legal advocacy and social welfare programs"
-  },
-  {
-    number: "120+",
-    label: "Active Programs",
-    description: "Ongoing programs across different states and rural districts"
-  },
-  {
-    number: "300+",
-    label: "Volunteers",
-    description: "Active volunteers dedicated to institutional justice"
-  },
-  {
-    number: "15+",
-    label: "States Covered",
-    description: "Presence across multiple states in India"
-  }
+  { number: "5000+", label: "Lives Impacted" },
+  { number: "120+", label: "Active Programs" },
+  { number: "300+", label: "Volunteers" },
+  { number: "15+", label: "States Covered" }
 ]
 
 function Impact() {
@@ -39,11 +23,8 @@ function Impact() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 mb-16">
           {stats.map((stat, index) => (
             <div key={index} className="bg-white/5 border border-white/10 p-6 text-center">
-              <div className="text-4xl lg:text-5xl font-headline font-black text-white mb-2">
-                {stat.number}
-              </div>
+              <div className="text-4xl lg:text-5xl font-headline font-black text-white mb-2">{stat.number}</div>
               <div className="text-[#e9c349] font-bold text-sm uppercase tracking-wider mb-2">{stat.label}</div>
-              <p className="text-white/50 text-sm">{stat.description}</p>
             </div>
           ))}
         </div>

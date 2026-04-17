@@ -23,7 +23,7 @@ function Contact() {
             </p>
 
             <div className="space-y-6">
-              <div className="flex items-start gap-4 p-4 bg-[#f3f3f5] border-l-4 border-[#00113a]">
+              <div className="flex items-start gap-4 p-4 bg-[#f5f5f7] border-l-4 border-[#00113a]">
                 <div className="w-10 h-10 bg-[#00113a] flex items-center justify-center shrink-0">
                   <span className="material-symbols-outlined text-[#e9c349]">location_on</span>
                 </div>
@@ -33,7 +33,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4 p-4 bg-[#f3f3f5] border-l-4 border-[#b51a1b]">
+              <div className="flex items-start gap-4 p-4 bg-[#f5f5f7] border-l-4 border-[#b51a1b]">
                 <div className="w-10 h-10 bg-[#b51a1b] flex items-center justify-center shrink-0">
                   <span className="material-symbols-outlined text-white">mail</span>
                 </div>
@@ -43,7 +43,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4 p-4 bg-[#f3f3f5] border-l-4 border-[#e9c349]">
+              <div className="flex items-start gap-4 p-4 bg-[#f5f5f7] border-l-4 border-[#e9c349]">
                 <div className="w-10 h-10 bg-[#735c00] flex items-center justify-center shrink-0">
                   <span className="material-symbols-outlined text-white">phone</span>
                 </div>
@@ -56,7 +56,7 @@ function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-[#f3f3f5] p-8 border border-[#e2e2e4]">
+          <div className="bg-[#f5f5f7] p-8 border border-[#e2e2e4]">
             <h3 className="font-headline text-xl font-bold text-[#00113a] mb-6 pb-4 border-b-2 border-[#b51a1b]">Send a Message</h3>
             <form className="space-y-5">
               <div className="grid md:grid-cols-2 gap-5">
